@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ABC</string>
+    <string name="btnLogin">Inicio</string>
+    <string name="welcome">Bienvenido!</string>
+    <string name="user">Ingrese nombre de usuario</string>
+    <string name="mssgschangerate">El tipo de cambio para el día de hoy</string>
+    <string name="mssgweather">Información climática actual</string>
+    <string name="stringbuy">Compra</string>
+    <string name="stringsale">Venta</string>
+</resources>
