@@ -58,9 +58,11 @@
         android:id="@+id/tvBuy"
         android:layout_width="83dp"
         android:layout_height="33dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="294dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="273dp"
         android:layout_marginBottom="573dp"
         android:text="@string/stringbuy" />
 
@@ -68,21 +70,26 @@
         android:id="@+id/tvSale"
         android:layout_width="78dp"
         android:layout_height="33dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="298dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="279dp"
         android:layout_marginBottom="525dp"
         android:text="@string/stringsale" />
 
     <TextView
         android:id="@+id/tvShowBuy"
-        android:layout_width="86dp"
+        android:layout_width="88dp"
         android:layout_height="35dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="162dp"
-        android:layout_marginBottom="570dp"
-        android:text="TextView" />
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="571dp"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        android:textColor="@color/rojo"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvShowSale"
@@ -90,15 +97,20 @@
         android:layout_height="35dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="158dp"
-        android:layout_marginBottom="525dp"
-        android:text="TextView" />
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="523dp"
+        android:text="TextView"
+        android:textAlignment="textEnd"
+        android:textColor="@color/rojo"
+        android:textStyle="bold" />
 
     <View
         android:layout_width="340dp"
         android:layout_height="1dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
         android:layout_marginEnd="29dp"
         android:layout_marginBottom="497dp"
         android:background="@color/design_default_color_on_secondary"
@@ -116,10 +128,30 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="44dp"
+        android:layout_marginStart="33dp"
         android:layout_marginTop="243dp"
-        android:layout_marginEnd="47dp"
+        android:layout_marginEnd="39dp"
         android:layout_marginBottom="461dp"
         android:text="@string/mssgweather" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="585dp"
+        app:srcCompat="@drawable/colon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="536dp"
+        app:srcCompat="@drawable/colon" />
 
 </RelativeLayout>
